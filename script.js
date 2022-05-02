@@ -5,6 +5,8 @@ const app = new Vue({
 
   data: {
     message: "I love art",
-  }
+    image: "img/creazione.jpg",
+  },
+
 
 });
