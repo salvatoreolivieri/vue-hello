@@ -11,8 +11,8 @@
 <body>
 
   <div class="container pt-5" id="app">
-    <h1>{{message}}</h1>
-    <img v-bind:src="image">
+    <h1 v-bind:class="color">{{message}}</h1>
+    <img v-bind:src="image" alt="la creazione">
   </div>
 
   <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
